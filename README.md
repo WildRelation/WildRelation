@@ -77,3 +77,11 @@ data       = ["DuckLake", "Parquet", "Pandas", "scikit-learn"]
 Stockholm, Sweden &nbsp;·&nbsp; joseph.solsol@hotmail.com
 
 </div>
+
+---
+
+<div align="center">
+
+![snake](https://raw.githubusercontent.com/WildRelation/WildRelation/output/github-contribution-grid-snake-dark.svg)
+
+</div>
