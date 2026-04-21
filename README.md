@@ -15,6 +15,13 @@
 
 ---
 
+<div align="center">
+
+![snake](https://raw.githubusercontent.com/WildRelation/WildRelation/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+
 ## What I build
 
 I focus on **data infrastructure** and **backend APIs** — systems that store, process and expose data at scale. Currently building lakehouse architectures with DuckDB and exploring ML pipelines end-to-end.
@@ -79,9 +86,3 @@ Stockholm, Sweden &nbsp;·&nbsp; joseph.solsol@hotmail.com
 </div>
 
 ---
-
-<div align="center">
-
-![snake](https://raw.githubusercontent.com/WildRelation/WildRelation/output/github-contribution-grid-snake-dark.svg)
-
-</div>
