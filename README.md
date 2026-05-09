@@ -2,7 +2,7 @@
 
 # Joseph · WildRelation
 
-**Data Engineering · Backend Systems · Stockholm**
+**IT Support · Data Engineering · Backend Systems · Stockholm**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://java.com)
@@ -10,6 +10,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 
 </div>
 
@@ -21,6 +22,11 @@
 
 </div>
 
+## Open to
+
+> **Seeking IT Support summer internship (2026)** — I enjoy helping users solve technical problems and have hands-on experience with Linux, Windows, networking and hardware. Available weeks 27–33, Stockholm.
+
+---
 
 ## What I build
 
@@ -58,11 +64,12 @@ Production-grade data lakehouse on KTH Cloud.
 ## Stack
 
 ```python
-languages  = ["Python", "Java"]
+languages  = ["Python", "Java", "C"]
 databases  = ["PostgreSQL", "DuckDB", "MinIO (S3)"]
 frameworks = ["FastAPI", "Spring Boot"]
 infra      = ["Docker", "Docker Compose", "GitHub Actions", "GHCR"]
 data       = ["DuckLake", "Parquet", "Pandas", "scikit-learn"]
+support    = ["Linux (Arch/Ubuntu)", "Windows 10/11", "Networking", "Hardware troubleshooting"]
 ```
 
 ---
