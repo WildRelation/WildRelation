@@ -40,24 +40,31 @@ CSV / raw data  →  DuckLake (DuckDB + Parquet)  →  REST API  →  Prediction
 
 ## Featured project
 
-### [ducklake-cloud](https://github.com/WildRelation/ducklake-cloud)
+### [ducklake-access-manager](https://github.com/WildRelation/ducklake-access-manager)
 
-Production-grade data lakehouse on KTH Cloud.
+A self-service web portal for automatic credential generation and access management for DuckLake (PostgreSQL + Garage S3) on KTH Cloud. Instead of manually distributing credentials, users visit the web UI and get a ready-to-run DuckDB connection script in seconds.
+
+```
+User visits web UI  →  selects bucket & permissions  →  gets DuckDB script
+                                                              ↓
+                                              runs inside cbhcloud deployment
+                                              (JupyterLab / VS Code / Python)
+```
 
 | Layer | Tech |
 |---|---|
-| Catalog (metadata + snapshots) | PostgreSQL 16 |
-| Object storage (Parquet files) | MinIO |
-| Query engine | DuckDB + DuckLake |
-| API (Python) | FastAPI |
-| API (Java) | Spring Boot |
-| Container runtime | Docker / GHCR |
+| Backend | Java (Spring Boot) |
+| Frontend | HTML / CSS |
+| Catalog (metadata) | PostgreSQL |
+| Object storage | Garage (S3-compatible) |
+| Container runtime | Docker |
+| Deployment | KTH Cloud (cbhcloud) |
 
 **Highlights**
-- Time travel via snapshot versioning
-- Dual-language REST API (Python + Java)
-- ML pipeline: Titanic → Random Forest → live predictions
-- Web dashboard with multilingual UI (ES / SV / EN)
+- Zero-touch credential generation — no manual admin steps
+- Live at `ducklake-access-manager.app.cloud.cbh.kth.se`
+- Role-based bucket access (read / read-write)
+- Generates ready-to-paste DuckDB connection scripts
 
 ---
 
